@@ -1,0 +1,73 @@
+h1 {
+    font-family: "Bookman Old Style";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(42, 84, 126);
+}
+
+h2 {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 2.5rem;
+}
+
+button{
+    font-size: 1.8750rem;
+    padding: 0.6250rem;
+    border: none;
+    background-color:rgb(42, 84, 126);
+    color: antiquewhite;
+    border-radius: .625rem;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-style: italic;
+}
+button:hover{
+    font-size: 1.8750rem;
+    padding: 0.6250rem;
+    border: none;
+    background-color:antiquewhite;
+    color: rgb(42, 84, 126);
+    border-radius: .625rem;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-style: italic;
+}
+body{
+    background-color: rgb(243, 206, 161);
+}
+.qtitle{
+    width: 18.75rem;
+    margin: auto;
+    margin-bottom: .625rem;
+}
+
+.qname{
+  width: 18.75rem;
+}
+
+.theQuotes {
+    width: 18.75rem;
+    border: .0313rem solid black;
+    padding: 1.25rem;
+    border-radius: .625rem;
+}
+
+.dynamicQuotes {
+    font-family: "Lucida Bright", Georgia, serif;
+    font-size: 1.5625rem;
+    font-variant: normal;
+    font-weight: 700;
+    color: black;
+}
+
+.staticQuotes {
+    font-family: Consolas, monaco, monospace;
+    color: rgb(153, 65, 51);
+    font-size: 1.25rem;
+}
+.qWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
