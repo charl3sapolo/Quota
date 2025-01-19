@@ -47,7 +47,6 @@ export function Quotes() {
     fetchedQ();
   }, []);
 
-  
   function handleQuotes() {
     setIndex(Math.floor(Math.random() * 201));
   }
